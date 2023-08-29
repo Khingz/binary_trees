@@ -5,7 +5,7 @@ int binary_tree_is_leaf(const binary_tree_t *node);
 /**
  * binary_tree_is_full - checks if tree is full
  * @tree: pointer to tree to print
- * Return - 1 if full else 0
+ * Return: 1 if full else 0
 */
 int binary_tree_is_full(const binary_tree_t *tree)
 {

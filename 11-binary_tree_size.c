@@ -3,7 +3,7 @@
 /**
  * binary_tree_size - checks for size of a tree
  * @tree: pointer to tree to print
- * Return - height of tree
+ * Return: height of tree
 */
 size_t binary_tree_size(const binary_tree_t *tree)
 {
