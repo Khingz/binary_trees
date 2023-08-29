@@ -1,7 +1,7 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_delete - creates a right node of a bt
+ * binary_tree_delete - delete a bt
  * @tree: pointer to root node
  * Return: void
 */

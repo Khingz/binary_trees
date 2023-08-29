@@ -1,9 +1,9 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_depth - checks for height of a tree
+ * binary_tree_depth - checks for depth of a tree
  * @tree: pointer to tree to print
- * Return - height of tree
+ * Return - depth of tree
 */
 size_t binary_tree_depth(const binary_tree_t *tree)
 {
