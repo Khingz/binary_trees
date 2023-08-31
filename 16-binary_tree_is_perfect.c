@@ -5,7 +5,7 @@ size_t binary_tree_depth(const binary_tree_t *tree);
 /**
  * binary_tree_is_perfect - checks if tree is perfect
  * @tree: pointer to tree to print
- * Return - 1 if full else 0
+ * Return: 1 if full else 0
 */
 int binary_tree_is_perfect(const binary_tree_t *tree)
 {
@@ -17,6 +17,7 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
 	right_depth = binary_tree_depth(tree->right);
 	printf("%d left depth: %d\n", tree->n, left_depth);
 	printf("%d right depth: %d\n",  tree->n, right_depth);
+	printf("%d left depth: %d- %d = %d\n", tree->n, left_depth, right_depth, left_depth-right_depth);
 
 	if (left_depth != right_depth)
 	{

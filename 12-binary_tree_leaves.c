@@ -5,7 +5,7 @@ int binary_tree_is_leaf(const binary_tree_t *node);
 /**
  * binary_tree_leaves - checks number of leaves
  * @tree: pointer to tree to print
- * Return - height of tree
+ * Return: height of tree
 */
 size_t binary_tree_leaves(const binary_tree_t *tree)
 {

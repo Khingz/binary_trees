@@ -3,7 +3,7 @@
 /**
  * binary_tree_depth - checks for depth of a tree
  * @tree: pointer to tree to print
- * Return - depth of tree
+ * Return: depth of tree
 */
 size_t binary_tree_depth(const binary_tree_t *tree)
 {
