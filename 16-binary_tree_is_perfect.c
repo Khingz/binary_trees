@@ -30,7 +30,7 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
 /**
  * binary_tree_depth - checks for height of a tree
  * @tree: pointer to tree to print
- * Return - height of tree
+ * Return: height of tree
 */
 size_t binary_tree_depth(const binary_tree_t *tree)
 {
