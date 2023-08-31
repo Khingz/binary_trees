@@ -56,7 +56,13 @@ binary_tree_t *equate(const binary_tree_t *node, size_t diff)
 {
 	if (!node || diff <= 0)
 		return ((binary_tree_t *)node);
-	return (equate(node->parent, diff - 1));
+	// return (equate(node->parent, diff - 1));
+	while (diff > 0)
+	{
+		node = node->parent;
+		diff--;
+	}
+	return ((binary_tree_t *)node);
 }
 
 /**
